@@ -13,6 +13,11 @@
 
 
     <dependencies>
+        <!-- eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!--cloud-api-commons自己定义的api通用包-->
         <dependency>
             <groupId>com.eraser.springcloud</groupId>

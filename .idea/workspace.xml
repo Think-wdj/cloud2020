@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b61f85a-30af-4b9d-8de7-a356c3b3d6c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/eraser/springcloud/entities/CommonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/eraser/springcloud/entities/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/OrderMain80.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/config/ApplicationContextConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/PaymentMain8001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/controller/PaymentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/dao/PaymentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/service/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/myrule/MySelfRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/OrderMain80.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/eraser/springcloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/PaymentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/PaymentMain8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/eraser/springcloud/controller/PaymentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,6 +280,7 @@
       <workItem from="1590670092546" duration="1057000" />
       <workItem from="1590671175936" duration="528000" />
       <workItem from="1590671711287" duration="233000" />
+      <workItem from="1590671971418" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="阶段性提交">
       <created>1590669746790</created>
@@ -420,10 +418,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1828" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/93.0.1187.720/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1590671355083" />
-    <state x="-1470" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1590671970981">
+    <state x="-1470" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1590672352235">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1470" y="267" key="com.intellij.ide.util.TipDialog/93.0.1187.720/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1590671970981" />
+    <state x="-1470" y="267" key="com.intellij.ide.util.TipDialog/93.0.1187.720/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1590672352235" />
     <state x="371" y="185" key="com.intellij.ide.util.TipDialog/93.0.1187.720/-1920.0.1920.1040@93.0.1187.720" timestamp="1590670092088" />
     <state x="417" y="114" width="538" height="500" key="extract.method.dialog" timestamp="1586696683940">
       <screen x="93" y="0" width="1187" height="720" />
