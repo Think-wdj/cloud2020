@@ -1,5 +1,0 @@
-com\eraser\springcloud\service\PaymentService.class
-com\eraser\springcloud\service\impl\PaymentServiceImpl.class
-com\eraser\springcloud\PaymentMain8001.class
-com\eraser\springcloud\dao\PaymentDao.class
-com\eraser\springcloud\controller\PaymentController.class
