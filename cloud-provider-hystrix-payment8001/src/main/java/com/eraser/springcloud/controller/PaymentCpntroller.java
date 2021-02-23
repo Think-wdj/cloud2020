@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sun.rmi.runtime.Log;
 
 import javax.annotation.Resource;
 
@@ -36,6 +37,14 @@ public class PaymentCpntroller {
     public String paymentInfo_Timeout(@PathVariable Integer id){
         String result=this.paymentService.paymentInfo_Timeout(id);
         log.info("**********result: "+result);
+        return result;
+    }
+
+    //====服务熔断
+    @GetMapping("/circuit/{id}")
+    public String paymentCircuitBreaker(@PathVariable Integer id){
+        String result = paymentService.paymentCircuitBreaker(id);
+        log.info("*****result:"+result);
         return result;
     }
 }
