@@ -1,5 +1,7 @@
 package com.eraser.springcloud.service;
 
+import org.springframework.web.bind.annotation.PathVariable;
+
 /**
  * @author Eraser E-mail:wudongjun43@163.com
  * @create 2020/11/17 20:53
@@ -19,6 +21,8 @@ public interface PaymentService {
      * @return
      */
     public  String paymentInfo_Timeout(Integer id);
+
+    public String paymentCircuitBreaker(Integer id);
 
 
 }
